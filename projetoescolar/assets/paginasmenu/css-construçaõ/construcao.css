@@ -1,0 +1,41 @@
+@import url("../../../index/css/global.css");
+@import url("../../../index/css/menu.css");
+@import url("../../../index/css/imagenspng.css");
+@import url("../../../index/css/footer.css");
+    
+   
+   
+   body {
+            background-image: url("../../midia/midiailust/Background.png");
+    }
+    
+    .construcao {
+             text-align: center;
+             width: 100%;
+             padding: 70px 0;
+             font-family: 'Poppins', sans-serif;
+    }
+
+    .construcao 
+        {
+            transform: translateY(0px);
+            animation: float 5s ease-in-out infinite
+    }
+    @keyframes float {
+            0% { transform: translateY(0px); }
+            50% {transform: translateY(-20px);}
+            100% {transform: translateY(0px);}
+     }
+    
+
+    .construcao-un i {
+
+            color: #008333;
+            font-size: 150px;
+    }
+
+    .construcao-un h2 {
+        font-size: 25px;
+        color: black;
+
+    }

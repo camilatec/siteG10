@@ -1,0 +1,32 @@
+#ensinos {
+    display: flex;
+     text-align: center; 
+     align-items: stretch;
+     font-family: 'Poppins', sans-serif;
+     padding: 28px 0; 
+}
+
+
+
+#turmas a {
+       color: black;
+       font-size: 24px;
+       text-decoration: none;
+       margin: 30px;
+       transition: 0.5s;
+}
+#turmas a:hover {
+       color: #E38D00;
+}
+#turmas .botao-turmas { 
+       background-color: #e38c00a6;
+       display: inline-block;
+       color: black;
+       padding: 10px 19px;
+       border-radius: 7px;
+       box-shadow: 4px 4px 10px #0016098e;
+}
+#turmas .botao-turmas:hover { 
+       background-color:#004119;
+       color: #FFF6E8;
+}
