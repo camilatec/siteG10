@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap" rel="stylesheet"> <!--fonte poppins-->
+    
+    <link rel="stylesheet" href="../paginasmenu/css/construcao.css"> <!--pag index css-->
+    
+    <link rel="shortcut icon" href="../midia/midialogo/favicon.ico" type="image/x-icon"> <!--favicon-->
+    <title>Geração 10</title>
+
+    <script src="https://kit.fontawesome.com/9cc5a5e153.js" crossorigin="anonymous"></script> <!--leitura de icone-->
+    
+</head>
+<body>
+    
+    <!--MENU html e js e css style-->
+    <section id="menu">
+
+        <div class="center">
+            <div id="menu-mobile">
+                <label for="btm-h">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                        <a href="../../../index/index.html" rel="prev">
+                        Home</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        2ª Via</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Mapa</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Sobre nós</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Contato</a>
+            </div>
+        </div>
+        <input type="checkbox" onclick="clicar()" id="btm-h">
+        <script>
+            const nome = document.getElementById('menu-mobile')
+            const nome2 = document.getElementById('mmenu')
+            function clicar(){
+                nome.classList.toggle('active') /*const é uma variável, fuction linca com const por "nome"*/
+                nome2.classList.toggle('')
+            }
+        
+        </script>
+        <header> <!--menu do site-->
+            <div class="center" id="mmenu">
+                    <nav>
+                        <a href="../../../index/index.html" rel="prev">
+                        Home</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        2ª Via</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Mapa</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Sobre nós</a>
+                        <a href="../../paginasmenu/construcao.html" rel="next">
+                        Contato</a>
+                    </nav><!--menu-->
+        
+                    <label for="btm-h">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>       
+            </div><!--center-->
+        </header>
+
+    </section>
+    <!--MENU html e js e css style-->
+
+
+
+ <!--index e css style-->
+    <section id="imagenspng"> <!--logo-->
+        <div class="center">
+
+            <div id="logo">
+                <picture>
+                    <source media="(max-width:420px )" srcset="../midia/midialogo/nome3.png" type="image/png">
+
+                    <source media="(max-width:850px )" srcset="../midia/midialogo/nome2.png" type="image/png">
+
+                    <img src="../midia/midialogo/nome1.png" alt="">  
+                </picture>
+            </div><!--logo-->
+        </div> <!--center-->
+    </section> <!--imagenspgn--> 
+
+    <div class="construcao">
+        <div class="construcao-un">
+            <i class="fa-solid fa-person-digging"></i>
+            <h2>Site em construção.</h2>
+        </div>
+    </div>
+
+<!--FOOTER-->
+    <footer>
+        <div class="center">
+               
+              <div class="footer-un">
+                  <div class="footer-logo">
+                       <img src="../midia/midialogo/logocompletoescola.png">
+                  </div> <!--footer-logo-->
+              </div> <!--footer-box-->
+  
+              <div class="footer-un">
+                  <div class="endereco">
+                      <h2>Venha nos visitar!</h2>
+                      <h3>Salvador/Bahia</h3>
+                      <h4>Acupe de Brotas</h4>
+                      <p>Rua Otacílio Santos nº19</p>
+                  </div>
+              </div> <!--footer-box-->
+              <div class="footer-un">
+                  <div class="contatos">
+                     <h2>Fale Conosco</h2>
+                      <ul class="redes-sociais">
+                        <li>
+                            <a href="https://pt-br.facebook.com/escolaG10/">
+                               <i class="fab fa-facebook-square"></i>
+                               <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/geracao10.escola/">
+                                <i class="fa-brands fa-instagram-square"></i>
+                               <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               <i class="fa-brands fa-whatsapp-square"></i>
+                               <span>Whatsapp</span>
+                            </a>
+                        </li>
+                       </ul>
+                  </div> <!--contatos-->
+              </div> <!--footer-box-->
+             
+          
+          <div class="creditos">
+              <p> Site criado por: Devs Camila & Matheus 2022</p>
+          </div>
+  
+        </div> <!--center-->
+        </footer>
+  
+  </body>
+  </html>
