@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#error {
+    padding: 15px 25px;
+    background: rgb(122, 2, 2);
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    animation: .4s ease-in-out;
+    animation-delay: 1s;
+    display: none;
+}
+  
+   @keyframes some {
+      to {
+          transform: scale(0);
+          transform-origin: center top;
+      }
+  }
+  
+  #error {
+    animation: 0.5s some linear forwards;
+    animation-delay: 3s;
+  } 
+
+#grid {
+   width: 400px;
+   margin: auto;
+   align-content: center;
+   padding-top: 140px;
+   text-align: center;
+   font-weight: 600;
+ }
+
+span {
+    font-size: 14px;
+    margin: -20px;
+    color: rgb(6, 54, 0);
+}
+
+ #img {
+    width: 150px;
+    margin: auto;
+ }
+
+ #img img {
+    width: 100%;
+ }
+
+.acessinput {
+    width: 380px;
+    padding: 0 10px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background:white;
+    border:1px solid #f09c17;
+}
+
+#submitbtn {
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    background: rgb(6, 54, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+
+
+#logo {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#icones {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    position: fixed;
+    right: 180px;
+    bottom: 25px;
+}
+#icones img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px #00190a67; 
+    border-radius: 8px;
+}
+
+#banner picture {
+    max-width: 100%;
+   
+}
+#banner {
+    text-align: center;
+    width: 100%;
+}
+
+#banner .borda {
+    border-radius: 20px;
+}
+
+#banner{ 
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+@media screen and (max-width:1250px) {
+    #icones {
+        right: 10px;
+        bottom: 100px;
+        z-index: 2;
+    } 
+}
+
+@media screen and (max-width:750px) {
+    #icones {
+        right: 10px;
+        bottom: 35px;
+        z-index: 2;
+    } 
+}

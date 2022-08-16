@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    }
+
+    :root{
+        --verdeclaro: 
+    }
+    
+    .center {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 0%;
+            display: flex;
+            flex-wrap: wrap;
+    }
+    
+    body {
+            background-image: url('../../../../projetoescolar/assets/midia/midiailust/Background.png');
+            padding: 0px 0;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+
+    }
+
+    main h1 {
+        text-shadow: 2px 1px 1px #00190a55;
+    }
+    main h2, p, ul, i, a {
+        text-shadow: 1px 1px 1px #00190a48; 
+    }

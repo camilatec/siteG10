@@ -1,0 +1,45 @@
+/*footer*/
+footer {background-color: #004119;
+    height: 100%;
+    border-top: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+footer h2 {color: #004119;}
+footer h3, footer h4, footer a, footer p, footer span, i{
+    color:#FFF6E8 ;}
+
+
+footer a  { text-decoration: none;}
+footer ul { padding: 0;}
+footer li { list-style: none;}
+
+.footer-un{ 
+    width: 31%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+}
+
+
+.contatos li {margin-bottom: 6px; }
+.contatos a {transition: .5s;}
+.contatos a:hover {color: #E38D00;}
+
+.creditos p {font-size: small;}
+
+/*Mobile*/
+@media screen and (max-width:750px) {
+
+
+.footer-un{ 
+        width: 100%;
+        text-align: center; 
+            
+}
+.footer {
+        flex-wrap: wrap;
+        display: flex;
+}
+}

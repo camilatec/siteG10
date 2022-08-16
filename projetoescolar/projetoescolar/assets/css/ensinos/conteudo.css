@@ -1,0 +1,35 @@
+main {
+    background-color:  #ffffff  ;
+    width: 920px;  
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+main #texto {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4px;
+    padding: 50px;
+}
+
+main{
+    margin-top: 30px;
+}
+
+main h1 {
+    font-size: 40px;
+}
+main h2 {
+    font-size: 20px;
+}
+main p {
+    font-size: 17px;
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+body {
+    background-image: url('../../midia/midiailust/Background.png');
+}

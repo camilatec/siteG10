@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap" rel="stylesheet"> <!--fonte poppins-->
+    
+    <link rel="stylesheet" href="../../../../projetoescolar/assets/css/ensinos/ensinos.css"> <!--pag index css-->
+    
+    <link rel="shortcut icon" href="../../../../projetoescolar/assets/midia/midialogo/favicon.ico" type="image/x-icon"> <!--favicon-->
+    <title>Geração 10</title>
+
+    <script src="https://kit.fontawesome.com/9cc5a5e153.js" crossorigin="anonymous"></script> <!--leitura de icone-->
+    
+</head>
+<body>
+    
+    <!--MENU html e js e css style-->
+    <section id="menu">
+
+        <div class="center">
+            <div id="menu-mobile">
+                <label for="btm-h">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                        <a href="../../../../projetoescolar/assets/index.html" rel="prev" class="btn-menu">
+                        Home</a>
+                        <a href="https://grafiteweb.infocraft.com.br/geracao10" target="_blank" rel="next" class="btn-menu">
+                        2ª Via</a>
+                        <a href="../../../../projetoescolar/assets/html/menu/mapa.html" rel="next" class="btn-menu">
+                        Mapa</a>
+                        <a id="btn-matricula" href="../../../../projetoescolar/assets/html/menu/matricula.php" rel="next">
+                        Pré Matrícula</a>
+            </div>
+        </div>
+        <input type="checkbox" onclick="clicar()" id="btm-h">
+        <script>
+            const nome = document.getElementById('menu-mobile')
+            const nome2 = document.getElementById('mmenu')
+            function clicar(){
+                nome.classList.toggle('active') /*const é uma variável, fuction linca com const por "nome"*/
+                nome2.classList.toggle('')
+            }
+        
+        </script>
+        <header> <!--menu do site-->
+            <div class="center" id="mmenu">
+                    <nav>
+                        <a href="../../../../projetoescolar/assets/index.html" rel="prev">
+                        Home</a>
+                        <a href="https://grafiteweb.infocraft.com.br/geracao10" target="_blank" rel="next">
+                        2ª Via</a>
+                        <a href="../../../../projetoescolar/assets/html/menu/mapa.html" rel="next">
+                        Mapa</a>
+                        <a id="btn-matricula" href="../../../../projetoescolar/assets/html/menu/matricula.php" rel="next">
+                           Pré Matrícula</a>
+                    </nav><!--menu-->
+        
+                    <label for="btm-h">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>       
+            </div><!--center-->
+        </header>
+
+    </section>
+    <!--MENU html e js e css style-->
+
+
+
+ <!--index e css style-->
+    <!--index e css style-->
+    <section id="imagenspng"> <!--logo-->
+        <div id="icones">
+            <a href="https://api.whatsapp.com/send?phone=557193267837&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20a%20escola.%20" target="_blank"><img src="../../../../projetoescolar/assets/midia/midiafotos/zap.png" alt=""></a>
+            <a href="https://www.instagram.com/geracao10.escola/" target="_blank"><img src="../../../../projetoescolar/assets/midia/midiafotos/insta.png" alt=""></a>
+            </div>
+        <div class="center">
+
+            <div id="logo">
+                <picture>
+                    <source media="(max-width:420px )" srcset="../../../../projetoescolar/assets/midia/midialogo/nome3.png" type="image/png">
+
+                    <source media="(max-width:850px )" srcset="../../../../projetoescolar/assets/midia/midialogo/nome2.png" type="image/png">
+
+                    <img src="../../../../projetoescolar/assets/midia/midialogo/nome1.png" alt="">  
+                </picture>
+            </div><!--logo-->
+        </div> <!--center-->
+    </section> <!--imagenspgn--> 
+
+    <section id="fotos-ensinos">
+        <div class="center">
+
+             <div id="aligner">
+                 <button onclick="pre()" class="btn" id="pre"><i class="fa-solid fa-angle-left"></i>
+                 </button>
+                 <div id="carousel-area">
+                         <div id="overflow">
+                             <div class="newconteiner"><img src="../../../../projetoescolar/assets/midia/midiaensinos/infantil1.png" alt=""></div>
+                             <div class="newconteiner"><img src="../../../../projetoescolar/assets/midia/midiaensinos/infantil5.png" alt=""></div>
+                             <div class="newconteiner"><img src="../../../../projetoescolar/assets/midia/midiaensinos/infantil3.png" alt=""></div>
+                             <div class="newconteiner"><img src="../../../../projetoescolar/assets/midia/midiaensinos/infantil4.png" alt=""></div>
+                             <div class="newconteiner"><img src="../../../../projetoescolar/assets/midia/midiaensinos/infantil2.png" alt=""></div>
+                         </div>
+                 </div>
+                 <button onclick="next()" class="btn" id="next"><i class="fa-solid fa-angle-right"></i></button>  
+             </div>
+           </div>
+
+        </div>
+     </section>
+
+    <section id="conteudo">     
+        <div class="center">
+
+            <main>
+
+                <div id="texto">
+
+                    <h1>Ensino Infantil</h1>
+                    <br>
+                    <h2>Seja bem vindo!</h2> 
+                    <br>
+                    <p><strong>A Educação Infantil I e II</strong> corresponde à primeira fase da educação das crianças. Trata-se, por sua vez, do período de vida escolar de <strong>crianças entre 4 e 5 anos de idade</strong>. A educação infantil pode ser entendida em um sentido bastante amplo, pois contempla o misto de vivências das crianças tanto no ambiente familiar como na escola.</p> 
+                    <br>
+                    <p>
+                    As escolas de educação infantil, como a Geração 10,  portanto, carregam consigo o desafio de acompanhar o desenvolvimento humano em uma de suas fases mais complexas e amáveis. É nesse período que as crianças estão desenvolvendo, de forma mais intensa, seus aspectos emocionais, intelectuais, motores e sociais.
+                    Como se trata do primeiro contato com o ambiente externo ao domicílio, a educação infantil carrega consigo a missão de dar às crianças a oportunidade de se conhecerem e reconhecerem como cidadãos do mundo. <br>
+                    Por isso, todas as práticas de educação infantil na Geração 10 são planejadas, e avaliadas dentro do seu projeto pedagógico.
+                    </p>  
+                    <br>
+                    <p>
+                    Nossa <strong>sala</strong> é bastante aconchegante e confortável, temos ainda uma TV com programação infantil para os intervalos de aulas,
+                    um frigobar em cada sala para conservação das merendas e lanches. <br>
+                    Nosso mobiliário é moderno e confortável sem quinas e sem pontas, temos ainda banho de piscina, parquinho infantil, jogos de
+                    mesa, recreação orientada na quadra com muita segurança e para maior tranquilidade das famílias, a escola possui circuito de
+                    câmeras de monitoração.
+                    </p> <br>
+                    <p><strong>Não é por acaso que o nosso desempenho é acima da média.</strong></p>
+
+                </div>
+                     
+             </main>
+
+        </div>
+    </section>
+
+    <section id="ensinos">
+        <div class="center">
+         <div id="turmas">                                              
+
+                <a class="botao-turmas" href="../../../../projetoescolar/assets/html/ensinos/maternal.html" rel="next">
+                    Maternal</a>
+                <a class="botao-turmas" href="../../../../projetoescolar/assets/html/ensinos/infantil.html" rel="next"> 
+                    Ensino Infantil</a>
+                 <a class="botao-turmas" href="../../../../projetoescolar/assets/html/ensinos/fundamental.html" rel="next">
+                    Ensino Fundamental</a>
+                 <a class="botao-turmas" href="../../../../projetoescolar/assets/html/ensinos/integral.html" rel="next">
+                    Integral</a>
+
+            </div><!--turmas-->
+        </div> <!--center-->
+    </section> <!--main-turma-->
+
+
+
+<!--FOOTER-->
+    <footer>
+        <div class="center">
+               
+              <div class="footer-un">
+                  <div class="footer-logo">
+                       <img src="../../../../projetoescolar/assets/midia/midialogo/logocompletoescola.png">
+                  </div> <!--footer-logo-->
+              </div> <!--footer-box-->
+  
+              <div class="footer-un">
+                  <div class="endereco">
+                      <h2>Venha nos visitar!</h2>
+                      <h3>Salvador/Bahia</h3>
+                      <h4>Acupe de Brotas</h4>
+                      <p>Rua Otacílio Santos nº19</p>
+                  </div>
+              </div> <!--footer-box-->
+              <div class="footer-un">
+                  <div class="contatos">
+                     <h2>Fale Conosco</h2>
+                      <ul class="redes-sociais">
+                        <li>
+                            <a href="https://pt-br.facebook.com/escolaG10/" target="_blank">
+                               <i class="fab fa-facebook-square"></i>
+                               <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/geracao10.escola/" target="_blank">
+                                <i class="fa-brands fa-instagram-square"></i>
+                               <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=557193267837&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20a%20escola.%20" target="_blank">
+                               <i class="fa-brands fa-whatsapp-square"></i>
+                               <span>Whatsapp</span>
+                            </a>
+                        </li>
+                       </ul>
+                  </div> <!--contatos-->
+              </div> <!--footer-box-->
+             
+          
+          <div class="creditos">
+              <p> Site criado por: Devs Camila & Matheus 2022</p>
+          </div>
+  
+        </div> <!--center-->
+        </footer>
+  
+  </body>
+
+  <script src="../../../../projetoescolar/assets/html/ensinos/ensinos.js"></script>
+  </html>

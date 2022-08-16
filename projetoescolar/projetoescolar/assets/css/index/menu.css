@@ -1,0 +1,133 @@
+/*Menu*/
+header {
+    background-color: #008333;
+    padding: 20px 0;
+    border-bottom: 3px solid #00833293;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#menu-mobile {
+    display: none;
+}
+#btm-h {
+    display: none;
+}
+label {
+        display: none;
+}
+
+
+nav {
+    width: 1000px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav a {
+    color: #FFF6E8;
+    font-size: 21px;
+    text-decoration: none;
+    margin: 30px;
+    transition: 0.5s;
+    font-weight:600;
+}
+nav a:hover {
+    color: #E38D00;
+}
+
+#btn-matricula {
+        padding: 9px 20px ;
+        background-color: #ECAF4D;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #00190a67; 
+        color: #013716d8;
+        font-size: 19px;
+        transition: 0.5s;    
+        text-decoration: none;  
+        font-size: 19px;
+        text-decoration: none;
+        margin: 20px;
+        font-weight:600;
+}
+#btn-matricula:hover{
+        background-color: #004119;
+        color: #FFF6E8;
+}
+
+
+
+ 
+
+
+/*Mobile*/
+@media screen and (max-width:750px) {
+        
+
+    header {
+        padding: 16px 0;
+    }
+        
+    nav {
+            display:none ; 
+    }
+
+    label {
+            width: auto;
+            height: auto;
+            background-color: #07201100;
+            display: flex;  
+            color: #FFF6E8    
+    }
+    #mmenu{
+            width: 90%;
+            justify-content: right;
+    }
+
+
+    label i {
+            font-size: 28px;
+            color: #FFF6E8;
+    }
+
+            #menu-mobile {
+                    width: 100%;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    background-color: #008333;
+                    height: auto;
+                    display: none;
+                    flex-direction: column; 
+                    padding: 12px; 
+                    position: fixed;  
+                    z-index: 3;         
+            }
+
+            #menu-mobile.active {
+                    display: flex;
+            }
+
+            #mmenu.active  {
+                    display: none;
+            }
+   
+            #menu-mobile .btn-menu {
+                    color: #FFF6E8;
+                    font-size: 19px;
+                    text-decoration: none;
+                    margin: 20px;
+                    transition: 0.5s;
+                    font-weight:600;
+            }
+
+            #menu-mobile label i {
+                    font-size: 32px;
+                    color: #FFF6E8;
+            }
+            #menu-mobile label {
+                    width: 95%;
+                    justify-content: right;
+                    margin-top: 15px;
+            }
+
+        }
